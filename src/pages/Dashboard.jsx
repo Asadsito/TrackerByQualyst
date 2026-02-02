@@ -205,6 +205,11 @@ export default function Dashboard({ session }) {
     }
 
     const handleAddItem = () => {
+
+        if (profile?.plan === 'free' && items.length >= 5) {
+            alert("Free plan users can only add 5 items. Upgrade to add more.")
+            return
+        }
         setIsNewItem(true)
         setSelectedItem({
             name: '',

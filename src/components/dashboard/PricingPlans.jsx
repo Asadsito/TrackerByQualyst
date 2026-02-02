@@ -14,7 +14,7 @@ const plans = [
         color: 'from-slate-500 to-slate-600',
         stripePriceId: null,
         features: [
-            'Up to 3 items',
+            'Up to 5 items',
             'Basic reminders',
             'Document uploads'
         ],
@@ -37,7 +37,7 @@ const plans = [
             'Up to 25 items',
             'Advanced reminders',
             'Document uploads',
-            'Email notifications'
+
         ],
         limitations: [
             'No team members'
@@ -56,9 +56,8 @@ const plans = [
             'Unlimited items',
             'Advanced reminders',
             'Document uploads',
-            'Email notifications',
+            'Email notifications option',
             'Team members',
-            'Priority support'
         ],
         limitations: []
     }
